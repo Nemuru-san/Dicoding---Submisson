@@ -269,6 +269,41 @@ header {
     margin-top: 15px;
 }
 
-.testimonialItem {
+.testimonialContainer {
+    padding: 20px;
     display: flex;
+}
+
+.testimonialText {
+    max-width: 600%;
+    padding: 20px;
+    margin: 20px;
+}
+
+.testimonialText p {
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding-top: 150px;
+}
+
+.petik {
+    color: red;
+    font-weight: 700;
+}
+
+.univ {
+    color: red;
+    font-weight: 700;
+}
+
+.testimonialImg {
+    max-width: 400%;
+    padding: 20px;
+}
+
+.testimonialImg img {
+    width: 280px;
+    height: 350px;
+    border-radius: 5px;
 }

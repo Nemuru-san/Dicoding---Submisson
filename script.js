@@ -6,15 +6,16 @@ async function init() {
     await node.type('Hello, ')
     node.style.color = 'red';
     node.style.fontSize = '20px';
+    node.style.fontWeight = '300';
 
 
     while (true) {
-        await node.type('There, how are you?')
+        await node.type('World !!')
         await sleep(2000)
-        await node.delete('There, how are you?')
-        await node.type('World!')
+        await node.delete('World !!')
+        await node.type('There How are You??')
         await sleep(2000)
-        await node.delete('World!')
+        await node.delete('There How are You??')
     }
 }
 
