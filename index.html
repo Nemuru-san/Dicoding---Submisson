@@ -10,6 +10,10 @@
     <!-- google font -->
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:wght@100;300;400;500;600;700;800&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
         rel="stylesheet">
+
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <title>Submission Dicoding</title>
 </head>
 
@@ -46,9 +50,11 @@
     <!-- main content -->
 
     <section class="content">
-        <h1>Mendaki gunung</h1>
-        <p>Lorem ipsum dolor</p>
-        <div class="garisContent"></div>
+        <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="2000">
+            <h1>Mendaki gunung</h1>
+            <p>Lorem ipsum dolor</p>
+            <div class="garisContent"></div>
+        </div>
 
         <div class="contentDetail">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum incidunt eum esse possimus nulla iste in, amet sequi architecto velit quaerat est harum ab, expedita ad maxime eius ex consequuntur!
@@ -61,7 +67,7 @@
         <p>Lorem ipsum dolor</p>
         <div class="garisContent"></div>
 
-        <div class="row">
+        <div class="row" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="2000">
             <div class="column">
                 <div class="card cardOne">
                     <div class="cardDesc">
@@ -118,6 +124,7 @@
                 </p>
             </div>
             <div class="testimonialImg">
+                <div class="displayBg"></div>
                 <img src="asset/img6.jpg" alt="" class="testImg">
             </div>
         </div>
@@ -128,6 +135,12 @@
 
     <!-- js -->
     <script src="script.js"></script>
+
+    <!-- js aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

@@ -241,6 +241,8 @@ header {
     padding: 30px 100px;
     background-color: #2C3534;
     color: white;
+    position: absolute;
+    z-index: 1;
 }
 
 .testimonial h1 {
@@ -300,10 +302,22 @@ header {
 .testimonialImg {
     max-width: 400%;
     padding: 20px;
+    position: relative;
 }
 
 .testimonialImg img {
     width: 280px;
     height: 350px;
     border-radius: 5px;
+}
+
+.displayBg {
+    width: 270px;
+    height: 270px;
+    background-color: grey;
+    border-radius: 50%;
+    position: absolute;
+    top: 20%;
+    left: 7%;
+    z-index: -1;
 }
