@@ -20,8 +20,6 @@ async function init() {
 }
 
 
-// Source code 🚩
-
 const sleep = time => new Promise(resolve => setTimeout(resolve, time))
 
 class TypeAsync extends HTMLSpanElement {
@@ -46,6 +44,8 @@ class TypeAsync extends HTMLSpanElement {
 }
 
 customElements.define('type-async', TypeAsync, { extends: 'span' })
+
+
 
 
 init()
